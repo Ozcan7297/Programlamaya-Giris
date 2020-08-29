@@ -1,0 +1,20 @@
+
+package yas.hesaplama;
+
+import java.util.Scanner;
+
+public class YasHesaplama {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        System.out.println("Lutfen simdi hangi yilde oldugumuz soyleyin");
+        int x=s.nextInt();
+        Scanner a=new Scanner(System.in);
+        System.out.println("Lutfen dogum yilinizi girin");
+        int y=a.nextInt();
+        int yas=x-y;
+        System.out.println("Yasiniz-"+yas);
+        
+    }
+    
+}
